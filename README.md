@@ -1,0 +1,1 @@
+# borsh_psevdo-klass
