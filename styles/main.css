@@ -1,0 +1,587 @@
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: #DC384E;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+    justify-content: space-between;
+	
+}
+
+.header1 {
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	color: #ffffff;
+	font-family: 'Montserrat';
+	
+}
+
+.header1 > div {
+	font-size: 15px;
+	font-weight: bold;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.header3 {
+	padding: 15px;
+}
+.header3:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.header > .logo {
+	box-sizing: border-box;
+	width: 60px;
+	margin: 10px;
+}
+.logo1:hover {
+	width: 100px;
+}
+
+.logo-busket {
+	box-sizing: border-box;
+	width: 80px;
+	height: 60px;
+	margin: 10px;
+}
+
+.logo-busket:hover {
+	width: 100px;
+	height: 80px;
+	margin: 10px;
+	box-shadow: 10px 10px 26px 47px rgba(0,0,0,0.75);
+}
+
+.logo-busket {
+	border-radius: 50%;
+}
+
+.main-hero {
+	padding: 0 20px;
+	
+}
+
+.hero {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0 0;
+}
+
+.hero-description {
+	max-width: 50%;
+    width: 100%;
+    padding: 15px 15px 0 0;
+}
+
+.hero-text {
+	 font-size: 15px;
+	 line-height: 1.7;
+	 font-family: 'Montserrat';
+}
+
+.main-title {
+	margin-bottom: 40px;
+	font-size: 74px;
+    line-height: 1.21;
+	font-family: 'NAMU 1910';
+	font-weight: 400;
+}
+
+.hero-buttom > a {
+	text-decoration: none;
+	border: solid 1.5px #ffffff;
+	font-weight: bold;
+}
+
+.hero-buttom {
+	display: flex;
+	font-family: 'Montserrat';
+	font-size: 17px;
+	padding-top: 60px;
+	flex-wrap: nowrap;
+	justify-content: center;
+	gap: 20px;
+}
+
+.buttom1, .buttom2 {
+	color: #ffffff;
+	max-width: 225px;
+    width: 100%;
+    min-height: 60px;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.buttom1:hover, .buttom2:hover {
+	box-shadow: 10px 14px 60px -1px rgba(0,0,0,0.75);
+}
+
+.buttom1:hover {
+	background-color: #00FFFF;
+	color: #FF0000;
+}
+
+.buttom2:hover {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+
+.buttom2 {
+	color: #333;
+	background-color: #ffffff;
+}
+
+.hero-image-main {
+	max-width: 567px;
+    width: 100%;
+    max-height: 554px;
+}
+
+
+
+.hero-image {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-size-of-work {
+	width: 100%;
+	
+}
+
+.main-size-of-work > .work {
+	padding: 205px 0 90px;
+	color: #ffffff;
+	font-size: 16px;
+    line-height: 1.62;
+}
+
+.work  > .title-work {
+	margin-bottom: 70px;
+    max-width: 700px;
+	font-size: 20px;
+    line-height: 1.33;
+    font-family: 'NAMU 1910';
+	padding-left: 50px;
+}
+
+.work-items {
+	display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+	font-family: 'Montserrat';
+	padding-left: 30px;
+	
+}
+
+.work-item {
+	max-width: 300px;
+}
+
+.hart {
+	height: 70px;
+	border-radius: 50%;
+}
+
+.people, .diagrama {
+	height: 70px;
+	border-radius: 50%;
+	background-color: #ffffff;
+}
+
+.people:hover, .hart:hover, .diagrama:hover {
+	height: 100px;
+}
+
+.container > .new-recipe {
+	color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 300px 50px 100px;
+	
+}
+
+.new-recipe-image {
+	max-width: 100%;
+	max-width: 531px;
+    width: 100%;
+	object-fit: cover;
+}
+
+.new-recipe > .new-recipe-text {
+	max-width: 50%;
+    width: 100%;
+}
+
+.second-title {
+	font-size: 64px;
+    line-height: 1.25;
+	font-family: 'NAMU 1910';
+	font-weight: 500;
+}
+
+.new-recipe-text > p {
+	font-size: 16px;
+	line-height: 1.62;
+	font-family: 'Montserrat';
+}
+
+.container > .numbers {
+	margin: 0 120px;
+	color: #ffffff;
+	
+}
+
+.name-number {
+	border-top: solid 1px #fff;
+    padding: 30px 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name-number-left {
+	font-family: 'NAMU 1910';
+	font-size: 30px;
+    line-height: 1.33;
+	font-weight: 500;
+	max-width: 400px;
+}
+
+.name-number > .name-number-right {
+	font-family: 'Montserrat';
+}
+
+.name-number-right > .number-right {
+	display: block;
+    font-size: 74px;
+    line-height: 1.21;
+    font-family: 'NAMU 1910';
+	text-align: right;
+}
+
+.number-right2 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.products {
+	color: #ffffff;
+	text-align: center;
+
+}
+
+.products-text {
+	max-width: 600px;
+	padding: 0 300px;
+	
+}
+
+.products-items {
+	margin: 50px;
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+
+.products-items-link > .products-items-image {
+	max-width: 385px;
+    min-width: 385px;
+    min-height: 385px;
+    max-height: 385px;
+	border-radius: 50%;
+    background-color: #F25570;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+	transform: rotate(-3deg);
+}
+
+.products-items-image > .products-items-image1 {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.products-items-2 {
+	margin-top: 100px;
+}
+
+.products-items-a > p {
+	font-family: 'Montserrat';
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.products-title {
+	font-size: 30px;
+    font-family: 'NAMU 1910';
+	color: #ffffff;
+	font-weight: 500;
+}
+
+.busket-product {
+	max-width: 100px;
+}
+
+.busket-product:hover {
+	max-width: 200px;
+	
+}
+
+.porcii {
+	font-size: 20px;
+	color: #F4A460;
+	font-weight: 600;
+}
+
+.banosh {
+	font-family: 'Montserrat';
+	font-size: 12px;
+	color: #ffffff;
+}
+
+.products-items-a {
+	max-width: 340px;
+    text-align: center;
+}
+
+.smi {
+	background-color: #ffffff;
+	color: #000000;
+	max-width: 1200px;
+	
+}
+
+.smi-main {
+	max-width: 365px;
+	padding-left: 25px;
+	
+}
+
+.smi-title {
+	font-family: 'NAMU 1910';
+	font-size: 70px;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	padding: 100px 0;
+	
+	}
+	
+.smi-flex {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.smi1-image {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.smi-text {
+	font-family: 'Montserrat';
+}
+
+@media only screen and (max-width: 1000px) {
+	.header1 {
+		display: none;
+	}
+
+	.products-text {
+		max-width: 600px;
+		padding: 0 200px;
+	}
+
+	.products-items-link > .products-items-image {
+		max-width: 300px;
+		min-width: 300px;
+		min-height: 300px;
+		max-height: 300px;
+		border-radius: 50%;
+		background-color: #F25570;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-bottom: 35px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.hero {
+		color: #ffffff;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0;
+	}
+
+	.hero-description {
+		max-width: 100%;
+		width: 100%;
+		padding: 15px 15px 0 0;
+	}
+
+	.work  > .title-work {
+		margin-bottom: 70px;
+		max-width: 700px;
+		font-size: 20px;
+		line-height: 1.33;
+		font-family: 'NAMU 1910';
+		padding-left: 40px;
+	}
+
+	.work-items {
+		display: flex;
+		flex-wrap: wrap;
+		font-family: 'Montserrat';
+		margin-right: 20px;
+	}
+	
+	.work  > .title-work {
+		margin-bottom: 70px;
+		max-width: 700px;
+		font-size: 20px;
+		line-height: 1.33;
+		font-family: 'NAMU 1910';
+		margin-right: 20px;
+	}
+	
+	.container > .new-recipe {
+		color: #ffffff;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 300px 30px 100px;
+	}
+	
+	.new-recipe > .new-recipe-text {
+		max-width: 100%;
+		width: 100%;
+		margin: 0 20px;
+	}
+	
+	.name-number {
+		border-top: solid 1px #fff;
+		padding: 30px 0 30px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.number-right2 {
+		display: flex;
+		justify-content: center;
+	}
+	
+	.name-number-right > .number-right {
+		display: block;
+		font-size: 74px;
+		line-height: 1.21;
+		font-family: 'NAMU';
+		text-align: center;
+}
+
+	.container > .numbers {
+		margin: 0 70px;
+		color: #ffffff;
+	}
+	
+	.hero-buttom {
+		display: flex;
+		flex-wrap: wrap;
+	
+	}
+
+	.header1 > div {
+		padding: 5px;
+		font-size: 15px;
+		font-weight: bold;
+	
+	}
+	
+	.products-text {
+		max-width: 600px;
+		padding: 0 100px;
+	}
+	
+	.products-items {
+		margin: 50px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.smi-flex {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.smi-main {
+	max-width: 600px;
+	padding-left: 25px;
+	min-width: 100px;
+	
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.header1 {
+		display: none;
+	}
+	
+	.logo-busket {
+		box-sizing: border-box;
+		width: auto;
+		height: 50px;
+		margin: 5px;
+	}
+
+	.header > .logo {
+		box-sizing: border-box;
+		width: 50px;
+		margin: 5px;
+	}
+	
+	.products-text {
+		max-width: 600px;
+		padding: 0 50px;
+	
+	}
+	
+	.products-items {
+		margin: 50px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.second-title {
+		font-size: 50px;
+		line-height: 1.25;
+		font-family: 'NAMU 1910';
+		font-weight: 500;
+}
+
+.name-number-left {
+	font-family: 'NAMU 1910';
+	font-size: 25px;
+    line-height: 1.33;
+	font-weight: 500;
+	max-width: 400px;
+}
+
+
+}
